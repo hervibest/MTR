@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGoal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Goal>
+    <Title>Program No Error</Title>
+    <Description />
+    <Done>false</Done>
+    <Tags />
+    <Priority>Urgent Important</Priority>
+    <EventDate>2021-04-22T00:00:00+07:00</EventDate>
+    <Subtasks>
+      <Goal>
+        <Title>Modul 3</Title>
+        <Description />
+        <Done>false</Done>
+        <Tags />
+        <Priority>None</Priority>
+        <EventDate>2021-04-22T00:00:00+07:00</EventDate>
+        <Subtasks />
+      </Goal>
+      <Goal>
+        <Title>Modul 4</Title>
+        <Description />
+        <Done>false</Done>
+        <Tags />
+        <Priority>None</Priority>
+        <EventDate>2021-04-22T00:00:00+07:00</EventDate>
+        <Subtasks />
+      </Goal>
+    </Subtasks>
+  </Goal>
+</ArrayOfGoal>

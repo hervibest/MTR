@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMeeting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Meeting>
+    <Title>PBO</Title>
+    <Description />
+    <Done>false</Done>
+    <Tags>
+      <string>GimmeMyMoneys</string>
+    </Tags>
+    <Duration>5</Duration>
+    <StartTime>17:45</StartTime>
+    <EventDate>2020-02-02T00:00:00</EventDate>
+  </Meeting>
+  <Meeting>
+    <Title>Arsikom</Title>
+    <Description>Add Description</Description>
+    <Done>false</Done>
+    <Tags />
+    <Duration>0</Duration>
+    <StartTime>21:20</StartTime>
+    <EventDate>2020-02-22T00:00:00</EventDate>
+  </Meeting>
+  <Meeting>
+    <Title>ASD</Title>
+    <Description />
+    <Done>false</Done>
+    <Tags>
+      <string>dfasda </string>
+      <string>trsa</string>
+    </Tags>
+    <Duration>0</Duration>
+    <StartTime>15:15</StartTime>
+    <EventDate>2020-12-14T00:00:00</EventDate>
+  </Meeting>
+</ArrayOfMeeting>
