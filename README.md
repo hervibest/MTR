@@ -26,5 +26,4 @@ Mission
 
 Note
 
-![note](https://user-images.githubusercontent.com/72963708/117169626-7403db00-adf3-11eb-80ba-e273c1b4e0a1.png)
-
+![Screenshot (530)](https://user-images.githubusercontent.com/72963708/117169872-b3cac280-adf3-11eb-9051-778be70ead55.png)
