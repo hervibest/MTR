@@ -6,7 +6,9 @@
     using System.Windows.Input;
     using MTR.Commands;
     using MTR.Models;
-
+    using FireSharp.Config;
+    using FireSharp.Response;
+    using FireSharp.Interfaces;
     /// <summary>
     /// View model for all objects of type ToDoList.Models.Goal
     /// </summary>
@@ -15,6 +17,13 @@
         /// <summary>
         /// Initializes a new instance of the <see cref="GoalViewModel"/> class
         /// </summary>
+        /// 
+        IFirebaseConfig fcon = new FirebaseConfig()
+        {
+            AuthSecret = "9BsfBOIE3mpXF2A1eapIG1tKDY7PNHUNw3jXWtyy",
+            BasePath = "https://mission-to-remember-default-rtdb.firebaseio.com/"
+        };
+        IFirebaseClient client;
         public GoalViewModel()
             : base()
         {
@@ -22,6 +31,14 @@
             this.AddNewSubtask = new RelayCommand(this.HandleAddNewSubtask);
             this.DeleteSubtask = new RelayCommand(this.HandleDeleteSubtask);
             this.itemPool = DataTranslator<Goal>.Deserialize();
+            try
+            {
+                client = new FireSharp.FirebaseClient(fcon);
+            }
+            catch
+            {
+
+            }
         }
 
         /// <summary>
@@ -125,6 +142,7 @@
             ObservableCollection<Goal> sorted = new ObservableCollection<Goal>();
             sorted = new ObservableCollection<Goal>(this.itemPool.OrderBy(goal => goal.EventDate)
                                                                  .ThenByDescending(goal => goal.Priority));
+            var setter = client.Set("Goal", sorted);
             this.Items = sorted;
         }
     }

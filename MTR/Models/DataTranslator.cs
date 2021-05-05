@@ -5,6 +5,9 @@
     using System.Collections.ObjectModel;
     using System.IO;
     using System.Xml.Serialization;
+    using FireSharp.Config;
+    using FireSharp.Response;
+    using FireSharp.Interfaces;
 
     /// <summary>
     /// Class that allows implementing serialization and deserialization of objects of type T
@@ -30,7 +33,12 @@
                 seri.Serialize(writer, list);
             }
         }
-
+        IFirebaseConfig fcon = new FirebaseConfig()
+        {
+            AuthSecret = "DloYF0U5Z2AsSZWD8J23D4vgIqt3f6KvhZfvX1oj",
+            BasePath = "https://my-car-service-59f5f-default-rtdb.firebaseio.com/"
+        };
+        IFirebaseClient client;
         /// <summary>
         /// Deserializes an *.xml file and turns it into a collection of elements
         /// </summary>
@@ -48,9 +56,12 @@
             using (TextReader reader = new StreamReader(Path + typeof(T).ToString() + ".xml"))
             {
                 result = deseri.Deserialize(reader) as ObservableCollection<T>;
+                
             }
-
+            
             return result;
+
         }
+
     }
 }
