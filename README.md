@@ -1,5 +1,9 @@
 # MTR
 
+Diagram Basis Data
+
+![Modul 5](https://user-images.githubusercontent.com/72963708/117234742-c4a92180-ae4f-11eb-9298-54e9161aa395.png)
+
 Basis Data
 
 Firebase
