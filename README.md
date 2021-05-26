@@ -1,4 +1,4 @@
-# MTR
+# DIAGRAM DAN PETUNJUK APLIKASI
 
 Diagram Basis Data
 
@@ -31,3 +31,27 @@ Mission
 Note
 
 ![Screenshot (530)](https://user-images.githubusercontent.com/72963708/117169872-b3cac280-adf3-11eb-9051-778be70ead55.png)
+
+Aplikasi “Missions to Remember” merupakan aplikasi pencatatan kegiatan yang praktis untuk digunakan. Saat masuk pada aplikasi, aplikasi ini memiliki beberapa tab yang dapat dipilih dalam mencatat suatu agenda, yakni Missions, Meetings, Goals, Birthday, dan Notes. Berikut penjelasannya:
+
+1.	Missions
+
+Pada tab Missions, setiap mission yang ada akan memiliki berbagai keterangan, seperti Title, Descriptions, Tags, dan Priority. Lalu, kita juga dapat mencari mission tertentu pada search box di bagian kanan. Tak hanya itu, kita dapat menambahkan, menghapus, menyimpan, dan mengurutkan prioritas pada missions kita. Kemudian, kita juga dapat menandai apabila mission sudah terlaksana.
+
+2.	Meetings
+
+Pada tab Meetings, setiap meeting yang ada akan memiliki berbagai keterangan, seperti Title, Descriptions, Date, Starting Time, Duration, dan Tags. Lalu, kita juga dapat mencari meeting tertentu pada search box di bagian kanan. Tak hanya itu, kita dapat menambahkan, menghapus, menyimpan, dan mengurutkan prioritas pada meetings kita. Kemudian, kita juga dapat menandai apabila meeting sudah terlaksana.
+
+3.	Goals
+
+Pada tab Goals, setiap goal yang ada akan memiliki berbagai keterangan, seperti Title, Descriptions, Deadline, Tags, Priority, dan SubTask. Lalu, kita juga dapat mencari goal tertentu pada search box di bagian kanan. Tak hanya itu, kita dapat menambahkan, menghapus, menyimpan, mengurutkan prioritas, dan menambahkan maupun menghapus subtask pada goals kita. Kemudian, kita juga dapat menandai apabila goal sudah terlaksana.
+
+4.	Birthday
+
+Pada tab Birthday, setiap birthday yang ada akan memiliki berbagai keterangan, seperti Name, Age, Description, Birth Date, dan Tags. Lalu, kita juga dapat mencari birthday tertentu pada search box di bagian kanan. Tak hanya itu, kita dapat menambahkan, menghapus, menyimpan, dan mengurutkan birthday kita
+
+5.	Notes
+
+Pada tab Notes, setiap notes yang ada akan memiliki berbagai keterangan, seperti Title, Descriptions, dan Tags. Lalu, kita juga dapat mencari notes tertentu pada search box di bagian kanan. Tak hanya itu, kita dapat menambahkan, menghapus, menyimpan, dan mengurutkan notes kita.
+
+Tab di atas dapat dimanfaatkan untuk memudahkan pengguna dalam mencatat kegiatan yang dimiliki. Contohnya saat kita memiliki jadwal meeting, maka kita dapat mencatatnya dalam tab Meetings. Masing-masing tab memiliki ciri khasnya sendiri, sehingga pengguna mudah dalam membedakan tab tersebut. Ketika sudah selesai dalam mencatat, maka jangan lupa untuk menyimpan data yang telah dimasukkan agar data tidak hilang.
