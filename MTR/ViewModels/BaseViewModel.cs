@@ -20,6 +20,7 @@
     public class BaseViewModel<T> : IFilterable
         where T : BaseObjectModel, new()
     {
+
         /// <summary>
         /// A dynamic data collection that provides notifications when items get added, removed, 
         /// or when the whole list is refreshed.

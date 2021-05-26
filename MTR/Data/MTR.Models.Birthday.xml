@@ -5,26 +5,8 @@
     <Description>Description</Description>
     <Done>false</Done>
     <Tags />
-    <PersonName>Person's name</PersonName>
-    <EventDate>2021-05-05T21:17:14.9898363+07:00</EventDate>
-    <DateCreated>0001-01-01T00:00:00</DateCreated>
-  </Birthday>
-  <Birthday>
-    <Title>New Item</Title>
-    <Description>Description</Description>
-    <Done>false</Done>
-    <Tags />
-    <PersonName>Person's name</PersonName>
-    <EventDate>2021-05-05T21:17:15.1614308+07:00</EventDate>
-    <DateCreated>0001-01-01T00:00:00</DateCreated>
-  </Birthday>
-  <Birthday>
-    <Title>New Item</Title>
-    <Description>Description</Description>
-    <Done>false</Done>
-    <Tags />
-    <PersonName>Person's name</PersonName>
-    <EventDate>2021-05-05T21:17:15.3095357+07:00</EventDate>
+    <PersonName>Hervi Nur R</PersonName>
+    <EventDate>2001-10-05T00:00:00</EventDate>
     <DateCreated>0001-01-01T00:00:00</DateCreated>
   </Birthday>
 </ArrayOfBirthday>
