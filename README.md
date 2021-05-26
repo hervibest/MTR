@@ -1,5 +1,10 @@
 # DIAGRAM DAN PETUNJUK APLIKASI
 
+Anggota Kelompok 1 Praktikum PBO:
+1. Dinda Sabela Rahma W (20/463598/TK/51590)
+2. Hervi Nur Rahmandien (20/463601/TK/51593)
+3. Laili Rofi’ah (20/463604/TK/51596)
+
 Diagram Basis Data
 
 ![Modul 5](https://user-images.githubusercontent.com/72963708/117234742-c4a92180-ae4f-11eb-9298-54e9161aa395.png)
@@ -31,6 +36,8 @@ Mission
 Note
 
 ![Screenshot (530)](https://user-images.githubusercontent.com/72963708/117169872-b3cac280-adf3-11eb-9051-778be70ead55.png)
+
+Penjelasan
 
 Aplikasi “Missions to Remember” merupakan aplikasi pencatatan kegiatan yang praktis untuk digunakan. Saat masuk pada aplikasi, aplikasi ini memiliki beberapa tab yang dapat dipilih dalam mencatat suatu agenda, yakni Missions, Meetings, Goals, Birthday, dan Notes. Berikut penjelasannya:
 
