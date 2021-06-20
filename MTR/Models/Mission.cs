@@ -1,7 +1,6 @@
 ﻿namespace MTR.Models
 {
     using System;
-    using System.Collections.Generic;
 
     /// <summary>
     /// Simple task without deadline and optional priority.

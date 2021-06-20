@@ -1,10 +1,9 @@
 ﻿namespace MTR.Converters
 {
+    using MTR.Models;
     using System;
     using System.Globalization;
     using System.Windows.Data;
-    using System.Windows.Media;
-    using MTR.Models;
 
     /// <summary>
     /// Handles conversion of Priority value Urgent to boolean value and vice versa

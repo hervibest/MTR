@@ -1,13 +1,12 @@
 ﻿namespace MTR.ViewModels
 {
+    using FireSharp.Config;
+    using FireSharp.Interfaces;
+    using MTR.Commands;
+    using MTR.Models;
     using System.Collections.ObjectModel;
     using System.Linq;
     using System.Windows.Input;
-    using MTR.Commands;
-    using MTR.Models;
-    using FireSharp.Config;
-    using FireSharp.Response;
-    using FireSharp.Interfaces;
     /// <summary>
     /// View model for all objects of type ToDoList.Models.BirthdayReminder
     /// </summary>
@@ -18,7 +17,7 @@
             AuthSecret = "9BsfBOIE3mpXF2A1eapIG1tKDY7PNHUNw3jXWtyy",
             BasePath = "https://mission-to-remember-default-rtdb.firebaseio.com/"
         };
-        
+
         /// <summary>
         /// Initializes a new instance of the <see cref="BirthdayViewModel"/> class
         /// </summary>
@@ -33,7 +32,7 @@
             }
             catch
             {
-                
+
             }
         }
 
@@ -48,7 +47,7 @@
         private void HandleSortItems(object obj)
         {
             ObservableCollection<Birthday> sorted = new ObservableCollection<Birthday>();
-            
+
             sorted = new ObservableCollection<Birthday>(this.itemPool.OrderBy(reminder => reminder.EventDate.Month)
                                                                              .ThenBy(reminder => reminder.EventDate.Day)
                                                                              .ThenBy(reminder => reminder.PersonName));

@@ -1,13 +1,10 @@
 ﻿namespace MTR.Models
 {
-    using System;
-    using System.Collections.Generic;
+    using FireSharp.Config;
+    using FireSharp.Interfaces;
     using System.Collections.ObjectModel;
     using System.IO;
     using System.Xml.Serialization;
-    using FireSharp.Config;
-    using FireSharp.Response;
-    using FireSharp.Interfaces;
 
     /// <summary>
     /// Class that allows implementing serialization and deserialization of objects of type T
@@ -56,9 +53,9 @@
             using (TextReader reader = new StreamReader(Path + typeof(T).ToString() + ".xml"))
             {
                 result = deseri.Deserialize(reader) as ObservableCollection<T>;
-                
+
             }
-            
+
             return result;
 
         }

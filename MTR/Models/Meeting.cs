@@ -1,15 +1,9 @@
 ﻿namespace MTR.Models
 {
-    using System;
-    using System.Collections.Generic;
-    using System.ComponentModel;
-    using System.Linq;
-    using System.Text;
-    using System.Text.RegularExpressions;
-    using System.Threading.Tasks;
-    using System.Xml.Serialization;
     using MTR.Exceptions;
+    using System;
     using System.Media;
+    using System.Text.RegularExpressions;
 
     /// <summary>
     /// An object that keeps all the information about a meeting

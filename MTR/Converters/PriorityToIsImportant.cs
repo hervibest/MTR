@@ -1,15 +1,14 @@
-﻿using System;
+﻿using MTR.Models;
+using System;
 using System.Globalization;
 using System.Windows.Data;
-using System.Windows.Media;
-using MTR.Models;
 
 namespace MTR.Converters
 {
 
     /// <summary>
     /// Handles conversion of Priority value Important to boolean value and vice versa
-    /// </summary>
+    ///// </summary>
     public class PriorityToIsImportant : IValueConverter
     {
         /// <summary>

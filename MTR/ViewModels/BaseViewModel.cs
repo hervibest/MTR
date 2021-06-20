@@ -1,13 +1,11 @@
 ﻿namespace MTR.ViewModels
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Collections.ObjectModel;
-    using System.ComponentModel;
-    using System.Windows.Data;
-    using System.Windows.Input;
     using MTR.Commands;
     using MTR.Models;
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using System.Windows.Data;
+    using System.Windows.Input;
 
     /// <summary>
     /// Base ViewModel to address the common functionality of all Items

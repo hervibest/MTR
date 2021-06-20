@@ -72,7 +72,7 @@
 //                }
 //            }
 //            private ICommand _getWeatherCommand;
-            
+
 //            public ICommand GetWeatherCommand
 //            {
 //                get
